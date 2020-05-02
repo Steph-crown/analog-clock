@@ -1,0 +1,22 @@
+body{background-color : #000000;}
+canvas{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    /*width :100%;
+    height : 100%;*/
+}
+@media (min-width : 760px)
+{
+	canvas{
+		width : 80%;
+		}
+}
+@media (min-aspect-ratio: 4/3) {
+	canvas{
+		width : 80vh;
+		}
+	}
